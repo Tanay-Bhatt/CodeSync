@@ -42,6 +42,3 @@ build/
 # ───────────── Vercel/Render ─────────────
 .vercel/
 .render/
-
-# ───────────── Ignore Frontend ─────────────
-frontend/
