@@ -265,12 +265,12 @@ body::before {
 }
 
 .left-panel {
-  width: 15vw;
+  min-width: 15%;
   border-right: 1px solid rgba(162, 155, 254, 0.1);
 }
 
 .right-panel {
-  width: 20vw;
+  min-width: 25%;
   border-left: 1px solid rgba(162, 155, 254, 0.1);
 }
 
@@ -644,4 +644,21 @@ body::before {
   .input-box, .neobutton {
     padding: 12px 15px;
   }
+}
+
+.made-with-love {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  margin-top: 3rem;
+}
+
+.made-with-love:hover {
+  opacity: 1;
+}
+
+.made-with-love a {
+  color: var(--secondary-color);
+  text-decoration: none;
 }

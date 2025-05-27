@@ -69,6 +69,10 @@ const LandingPage = () => {
             Join Room
           </button>
         </form>
+
+        <div className="made-with-love">
+          Made with ❤️ by <a href="https://github.com/Tanay-Bhatt" target="_blank" rel="noopener noreferrer">Tanay Bhatt</a>
+        </div>
       </div>
 
       {toastMessage && (
@@ -77,6 +81,8 @@ const LandingPage = () => {
           onClose={() => setToastMessage(null)} 
         />
       )}
+
+      
     </div>
   );
 };
