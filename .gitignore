@@ -1,0 +1,47 @@
+# ───────────── Python ─────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# ───────────── OS + Editor ─────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ───────────── Log & Runtime ─────────────
+*.log
+*.sqlite3
+*.pid
+
+# ───────────── Environment Variables ─────────────
+.env
+.env.*
+
+# ───────────── Build ─────────────
+dist/
+build/
+*.egg-info/
+
+# ───────────── Vercel/Render ─────────────
+.vercel/
+.render/
+
+# ───────────── Ignore Frontend ─────────────
+frontend/
