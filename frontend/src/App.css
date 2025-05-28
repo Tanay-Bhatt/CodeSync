@@ -187,7 +187,7 @@ body::before {
 .room-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100dvh;
   background-color: #121212;
   color: #e0e0e0;
   width: 100vw;
@@ -256,6 +256,8 @@ body::before {
   display: flex;
   flex: 1;
   overflow: hidden;
+  position: relative;
+  align-items: stretch;
 }
 
 .left-panel, .right-panel {
