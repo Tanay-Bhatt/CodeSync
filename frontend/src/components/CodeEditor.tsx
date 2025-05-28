@@ -18,6 +18,17 @@ const languages = [
   { value: "typescript", label: "TypeScript" },
   { value: "html", label: "HTML" },
   { value: "css", label: "CSS" },
+  { value: "csharp", label: "C#" },
+  { value: "php", label: "PHP" },
+  { value: "go", label: "Go" },
+  { value: "ruby", label: "Ruby" },
+  { value: "rust", label: "Rust" },
+  { value: "swift", label: "Swift" },
+  { value: "kotlin", label: "Kotlin" },
+  { value: "scala", label: "Scala" },
+  { value: "dart", label: "Dart" },
+  { value: "r", label: "R" },
+  { value: "shell", label: "Bash/Shell" }
 ];
 
 const CodeEditor = ({ roomId }: { roomId: string }) => {
